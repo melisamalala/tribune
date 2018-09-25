@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13bc28f6-aba4-4b12-adc1-5dc9ef5752b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/news/templates/new_article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/all-news/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribune/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribune/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="13bc28f6-aba4-4b12-adc1-5dc9ef5752b5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +258,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
+    <option name="x" value="37" />
     <option name="y" value="23" />
     <option name="width" value="1310" />
     <option name="height" value="713" />
@@ -359,7 +347,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="23" width="1310" height="713" extended-state="0" />
+    <frame x="37" y="23" width="1310" height="713" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24359968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
