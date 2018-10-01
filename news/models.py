@@ -29,6 +29,7 @@ class tags(models.Model):
 
 
 class Article(models.Model):
+    # id= models.CharField(max_length = 10,blank =True)
     title = models.CharField(max_length=60)
     post = HTMLField()
     editor = models.ForeignKey(User, on_delete=models.CASCADE)

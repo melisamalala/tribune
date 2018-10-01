@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse, Http404, HttpResponseRedirect
+from django.http import HttpResponse, Http404, HttpResponseRedirect, JsonResponse
 import datetime as dt
 from .models import Article, NewsLetterRecipients
 from .forms import NewsLetterForm, NewArticleForm
@@ -96,6 +96,8 @@ def new_article(request):
     current_user = request.user
     if request.method == 'POST':
         form = NewArticleForm(request.POST, request.FILES)
+
+
         if form.is_valid():
             article=form.save(commit=False)
             article.editor=current_user
@@ -108,5 +110,15 @@ def new_article(request):
     else:
         form = NewArticleForm()
 
-
     return render(request, 'new_article.html', {"form":form})
+
+
+def newsletter(request):
+    name = request.POST.get('your_name')
+    email= request.POST.get('email')
+
+    recipient= NewsLetterRecipients(name= name, email =email)
+    recipient.save()
+    send_welcome_email(name, email)
+    data= {'success': 'You have been successfully added to the newsletter mailing list'}
+    return JsonResponse(data)
